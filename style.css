@@ -18,10 +18,11 @@ body {
 .contaier {
     margin-top: 12rem;
     width: 70vw;
-    border: 0.1rem #345678 solid;
 }
 .post {
     padding: 2rem;
+    border: 0.1rem #345678 solid;
+    margin-bottom: 2rem;
 }
 h3 {
     margin-bottom: 1.5rem;
