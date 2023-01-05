@@ -14,6 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .contaier {
     width: 70vw;
@@ -28,4 +29,30 @@ h3 {
 }
 .post :nth-child(2) {
     color: #80a3c6;
+}
+.cabecera {
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: #80a3c6;
+    width: 100%;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    color: rgb(29, 46, 64);
+}
+.cabecera div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.cabecera div h1, h3 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
