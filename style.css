@@ -14,7 +14,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: red;
 }
 .contaier {
     margin-top: 12rem;
