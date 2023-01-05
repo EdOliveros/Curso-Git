@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .contaier {
     width: 70vw;
@@ -30,4 +31,9 @@ h3 {
 }
 .post :nth-child(2) {
     color: #80a3c6;
+}
+.cabecera {
+    display: flex;
+    position: fixed;
+    top: 0;
 }
